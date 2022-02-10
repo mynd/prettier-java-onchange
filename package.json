@@ -1,0 +1,25 @@
+{
+  "name": "prettier-java-onchange",
+  "version": "1.0.0",
+  "description": "Can have Prettier-java watch for changes from the command line by using onchange",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynd/prettier-java-onchange.git"
+  },
+  "keywords": [],
+  "author": "Norio Kimura <kimura@monad.tv>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mynd/prettier-java-onchange/issues"
+  },
+  "homepage": "https://github.com/mynd/prettier-java-onchange#readme",
+  "scripts": {
+    "prettier": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "onchange": "^7.1.0",
+    "prettier-plugin-java": "^1.6.1"
+  }
+}
